@@ -1,5 +1,5 @@
 import React from 'react'
-import adidas from '../main/sectionImg/adidas.png'
+import adidas from '../main/sectionImg/image13.png'
 
 export default function SectionThree() {
     return (

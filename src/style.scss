@@ -278,7 +278,9 @@
 	.container {
 		display: flex;
 		align-items: center;
+		justify-content: space-around;
 		.titleLeft {
+			width: 500px;
 			h1 {
 				font-family: "Poppins";
 				font-style: normal;
@@ -307,9 +309,7 @@
 				border-bottom: 2.8px solid white;
 			}
 		}
-		.imgRight {
-			transform: translateY(-95px);
-		}
+		
 	}
 }
 .sectionFour {
@@ -907,6 +907,8 @@ footer {
 			max-width: 961.57px;
 			.rightBoxTopCard {
 				display: flex;
+				align-items: center;
+				justify-content: space-between;
 				width: 961.57px;
 				background-color: black;
 				margin-bottom: 11px;
@@ -946,7 +948,8 @@ footer {
 				}
 				.insideRightImg {
 					img {
-						transform: translateY(-95px);
+						width: 290px;
+						height: 280px;
 					}
 				}
 			}
@@ -1413,10 +1416,11 @@ footer {
 					}
 				}
 				.miniCard:hover{
-					box-shadow: 5px 5px 63px -2px rgba(0, 144, 255, 0.49);
+					box-shadow: 1px 0px 13px 2px rgba(34, 60, 80, 0.4);
 				}
 				.miniCard {
 					position: relative;
+					transition: all 0.3s ease;
 					width: 300px;
 					height: 388px;
 					margin-bottom: 34px;
@@ -1527,7 +1531,7 @@ footer {
 	flex-wrap: wrap;
 }
 .imgProduct:hover{
-	box-shadow: 5px 5px 63px -2px rgba(0, 144, 255, 0.49);
+	box-shadow: 1px 0px 13px 2px rgba(34, 60, 80, 0.4);
 }
 .imgProduct {
 	width: 301px;
@@ -1536,6 +1540,7 @@ footer {
 	border: 2px solid #f6f7f8;
 	border-radius: 7px;
 	margin-right: 15px;
+	transition: all 0.3s ease;
 	.AddProductBtn{
 		height: 47px;
 		background-color: black;
